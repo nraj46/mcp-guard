@@ -392,7 +392,10 @@ export default function Home() {
       <footer className="mt-10 text-xs text-zinc-600">
         Built with Next.js, TypeScript, and the official MCP TypeScript SDK. Demo data lives in
         memory; the gateway is transport-agnostic, so the in-process demo server can be swapped for
-        any real MCP server.
+        any real MCP server. ·{" "}
+        <a href="/data-policy" className="text-sky-500 hover:underline">
+          Data &amp; privacy policy
+        </a>
       </footer>
     </main>
   );
